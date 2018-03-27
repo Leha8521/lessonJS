@@ -17,7 +17,7 @@ for (let i = 0; i < (week.length); i++) {
 
 var arr = ['35', '55', '5868', '75', '88', '3698', '7895'];
     
-   for (let i = 0; i < 6; i++) {
+   for (let i = 0; i < 7; i++) {
        if ((arr[i].charAt(0)) === '3' || (arr[i].charAt(0)) === '7') {
             console.log(arr[i]);
        }
