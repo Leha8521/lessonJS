@@ -9,19 +9,19 @@ var mainList = {
   open: true
 };
 
-// for (var i = 0; i < 5; i++) {
-//     var a = prompt('Введите вид товара');
-//     if ((typeof(a)) === 'string' && (typeof(a)) !== null  &&  a !== ''  && a.length < 10) {
-//       console.log('Все верно!');
-//       mainList.shopGoods[i] = a;
+for (var i = 0; i < 5; i++) {
+    var a = prompt('Введите вид товара');
+    if ((typeof(a)) === 'string' && (typeof(a)) !== null  &&  a !== ''  && a.length < 10) {
+      console.log('Все верно!');
+      mainList.shopGoods[i] = a;
 
-//     }  else {
-//         if ((typeof(a)) !== null) {
-//       alert('Вы ввели не правельное значение, пожалуйста введите');
-//        i--;
-//       }
-//     }
-// }
+    }  else {
+        if ((typeof(a)) !== null) {
+      alert('Вы ввели не правельное значение, пожалуйста введите');
+       i--;
+      }
+    }
+}
 
 // let i = 0;
 //  while (i < 5) {
