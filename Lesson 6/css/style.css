@@ -1,0 +1,29 @@
+button {
+	display: inline-block;
+	height: 50px;
+	width: 150px;
+	background-color: green;
+	margin: 10px;
+	color: #fff;
+	border: none;
+	border-radius: 10px
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+
+a {
+	display: block;
+	padding: 50px 5px;
+}
+
+.overlay {
+	background-color: #DA242C;
+	margin: 20px 10px;
+	width: 200px;
+	height: 100px;
+	
+	text-align: center;
+}
