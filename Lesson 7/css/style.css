@@ -1,0 +1,37 @@
+button {
+  border: none;
+  background-color: #F8FF01;
+  padding: 10px;
+  margin: 10px 20px;
+  color: #000;
+  font-size: 14px;
+  width: 100px;
+  height: 40px;
+
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.wrapper {
+  height: 400px;
+  width: 400px;
+  border: 2px solid red;
+  position: relative;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: #0001EA;
+  position: absolute;
+
+}
+
+
+.btn-block {
+  background-color: #7C817D;
+  margin: 5px 0px;
+  text-align: center;
+}
