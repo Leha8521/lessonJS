@@ -76,6 +76,7 @@ function setClock(id, endtime) {
             }
         };
 
+
         updateClock();
         let timerInterval = setInterval(updateClock, 1000);
 
@@ -84,6 +85,29 @@ function setClock(id, endtime) {
 setClock('timer', deadline);
 
 
+// Scrol Menu
+
+function scrolTop() {   
+pos = 0;
+id = setInterval(posic, 1)
+
+function posic() {
+
+    if (pos >= 571) {
+    clearInterval(id);
+    } else {
+        pos++;
+        document.documentElement.scrollTop = pos;
+    }
+
+    }    
+
+
+};
+
+let li = get
+
+scrolTop();
 
 
 
