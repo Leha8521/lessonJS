@@ -191,6 +191,7 @@ moreDetailed.addEventListener('click', moreOpen);
  // message2.loading = "Загрузка...";
  // message2.success = "Спасибо! Скоро мы с вами свяжемся";
  // message2.failure = "Что-то пошло не так...";
+////////////////////////////////////////////////////////////
 
  let form2 = document.getElementById('form'),
      input2 = form2.getElementsByTagName('input'),
